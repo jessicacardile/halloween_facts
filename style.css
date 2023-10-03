@@ -1,0 +1,65 @@
+body {
+    background-image: url("media/background.jpg");
+    background-repeat: no-repeat;
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: rgba(255, 102, 0, 0.8);
+    font-size: 48px;
+    font-family: 'Creepster', cursive;
+}
+
+#msgBox {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin: auto;
+    background-color: black;
+    border-radius: 240px;
+    width: 700px;
+    height: 500px;
+
+}
+
+#randomBox {
+    display: inline-flex;
+    position: absolute;
+    align-self: center;
+    padding: 20px;
+    margin: 0px 10px;
+    color: white;
+    font-size: 24px;
+    font-family: 'Creepster', cursive;
+}
+
+button {
+    position: absolute;
+    display: flex;
+    background-color: rgba(255, 102, 0, 0.8);
+    border-radius: 80%;
+    border: none;
+    transition-duration: 0.4s;
+    width: auto;
+    height: auto;
+    padding: 16px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+    color: rgba(255, 102, 0, 0.8);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-style: oblique;
+    text-decoration: underline;
+    font-family: 'Creepster', cursive;
+}
